@@ -4,6 +4,8 @@ import { getAuth } from "firebase/auth";
 
 
 
+
+
 //* https://firebase.google.com/docs/auth/web/start
 //* https://console.firebase.google.com/ => project settings
 //! firebase console settings bölümünden firebaseconfig ayarlarını al
@@ -13,6 +15,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
+
+    apiKey: "AIzaSyDDD1Oawc4HJssxl_ChtdnElD3e6Bw9zeY",
+  authDomain: "movie-app-33ee9.firebaseapp.com",
+  projectId: "movie-app-33ee9",
+  storageBucket: "movie-app-33ee9.appspot.com",
+  messagingSenderId: "1044018191375",
+  appId: "1:1044018191375:web:005b413f6b9b9f5215d77a",
+  measurementId: "G-VHF8GKTZ7J"
  
 };
 
